@@ -1,0 +1,13 @@
+(pocet [:a :b :c])
+(ns MapDefaults)
+(pocet [:a :b :c])
+(mapdef 1 [:a :b :c])
+(nTyPrvek [1 2 3 6] 2)
+(pocet [:a :b :c])
+(ns MapDefaults)
+(pocet [:a :b :c])
+(ns MapDefaults)
+(nTyPrvek [1 2 3 6] 2)
+(ns MapDefaults
+)
+(nTyPrvek [5 3 7 9] 2)

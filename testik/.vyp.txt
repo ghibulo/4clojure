@@ -1,0 +1,15 @@
+set scrolloff=2
+set ts=3 sw=3
+syntax on
+let $PAGER=''
+map <F3> :w! \.vyp.txt<ENTER>Go<ESC>:r !rpncalc < \.vyp.txt<ENTER>
+map <F2> :w! \.vyp.txt<ENTER>Go<ESC>:r !/home/jaih/calcvim<ENTER>
+imap <TAB> <Space><Space>
+map <TAB> i<Space><Space><Esc>
+imap <C-h> <Left>
+imap <C-j> <Down>
+imap <C-k> <Up>
+imap <C-l> <Right> 
+let $PAGER=''
+set encoding=utf-8
+set fileencodings=cp1250

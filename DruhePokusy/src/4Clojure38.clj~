@@ -1,0 +1,16 @@
+(ns 4Clojure38)
+
+(defn mojeMax [x y] (if (> x y) x y ) )
+
+(defn mojeMax2 [x & y] (if (empty? y) x (mojeMax2 
+                                          (mojeMax x (first (vector y))) (rest (vector y)))
+                       )
+)
+
+(mojeMax 10 (first (vector (20 30))))
+
+(def e (20 30))
+
+(first 'e)
+
+
